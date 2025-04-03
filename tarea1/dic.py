@@ -15,7 +15,7 @@ if "age" in my_map:
 del my_map["age"]
 
 # get
-print(my_map.get("name", "Unknown"))
+print(my_map.get("name"))
 
 # Iteración
 for key, value in my_map.items():
