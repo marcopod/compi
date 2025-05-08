@@ -1,0 +1,10 @@
+program ejemplo;
+var x, y: int;
+void foo() {
+    print("Hola", x + y);
+};
+main {
+    x = 3;
+    y = 4;
+    foo();
+} end
