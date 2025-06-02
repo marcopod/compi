@@ -1,0 +1,11 @@
+program param_test;
+var result: int;
+
+void add_numbers(a: int, b: int) {
+    result = a + b;
+};
+
+main {
+    add_numbers(5, 3);
+    print("Result: ", result);
+} end

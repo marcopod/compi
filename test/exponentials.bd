@@ -1,0 +1,16 @@
+program exponentials;
+var base, temp, exponent, result, i: int;
+
+
+
+void power(b: int, exp: int) {
+    print(b);
+};
+
+main {
+    
+    base = 2;
+    exponent = 5;
+    power(base, exponent);
+    
+} end

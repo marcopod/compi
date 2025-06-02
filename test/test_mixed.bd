@@ -1,0 +1,15 @@
+program mixed;
+var x, y: int;
+
+void greet() {
+    print("Hello from function!");
+};
+
+main {
+    x = 10;
+    y = 20;
+    print("Before function call");
+    greet();
+    print("After function call");
+    print("x + y = ", x + y);
+} end
